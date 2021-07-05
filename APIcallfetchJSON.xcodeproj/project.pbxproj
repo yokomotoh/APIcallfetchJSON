@@ -11,6 +11,11 @@
 		BF2FED13268F187700179065 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FED12268F187700179065 /* ContentView.swift */; };
 		BF2FED15268F188600179065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2FED14268F188600179065 /* Assets.xcassets */; };
 		BF2FED18268F188600179065 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2FED17268F188600179065 /* Preview Assets.xcassets */; };
+		BF2FED21268F18D800179065 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FED20268F18D800179065 /* Data.swift */; };
+		BF2FED24268F1CFE00179065 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FED23268F1CFE00179065 /* PostList.swift */; };
+		BF2FED28268F3E2A00179065 /* AsyncImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FED27268F3E2A00179065 /* AsyncImageLoader.swift */; };
+		BF30F25B269303C100C34997 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-07-05 at 11.07.49.png in Resources */ = {isa = PBXBuildFile; fileRef = BF30F25A269303C100C34997 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-07-05 at 11.07.49.png */; };
+		BF30F2642693058100C34997 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BF30F2632693058100C34997 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		BF2FED14268F188600179065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF2FED17268F188600179065 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF2FED19268F188600179065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2FED20268F18D800179065 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BF2FED23268F1CFE00179065 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		BF2FED27268F3E2A00179065 /* AsyncImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageLoader.swift; sourceTree = "<group>"; };
+		BF30F25A269303C100C34997 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-07-05 at 11.07.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPod touch (7th generation) - 2021-07-05 at 11.07.49.png"; sourceTree = "<group>"; };
+		BF30F2632693058100C34997 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 		BF2FED04268F187700179065 = {
 			isa = PBXGroup;
 			children = (
+				BF30F2632693058100C34997 /* .gitignore */,
 				BF2FED0F268F187700179065 /* APIcallfetchJSON */,
 				BF2FED0E268F187700179065 /* Products */,
 			);
@@ -52,11 +63,15 @@
 		BF2FED0F268F187700179065 /* APIcallfetchJSON */ = {
 			isa = PBXGroup;
 			children = (
+				BF30F25A269303C100C34997 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-07-05 at 11.07.49.png */,
 				BF2FED10268F187700179065 /* APIcallfetchJSONApp.swift */,
 				BF2FED12268F187700179065 /* ContentView.swift */,
+				BF2FED20268F18D800179065 /* Data.swift */,
 				BF2FED14268F188600179065 /* Assets.xcassets */,
 				BF2FED19268F188600179065 /* Info.plist */,
 				BF2FED16268F188600179065 /* Preview Content */,
+				BF2FED23268F1CFE00179065 /* PostList.swift */,
+				BF2FED27268F3E2A00179065 /* AsyncImageLoader.swift */,
 			);
 			path = APIcallfetchJSON;
 			sourceTree = "<group>";
@@ -126,7 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF30F2642693058100C34997 /* .gitignore in Resources */,
 				BF2FED18268F188600179065 /* Preview Assets.xcassets in Resources */,
+				BF30F25B269303C100C34997 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-07-05 at 11.07.49.png in Resources */,
 				BF2FED15268F188600179065 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2FED13268F187700179065 /* ContentView.swift in Sources */,
+				BF2FED21268F18D800179065 /* Data.swift in Sources */,
 				BF2FED11268F187700179065 /* APIcallfetchJSONApp.swift in Sources */,
+				BF2FED28268F3E2A00179065 /* AsyncImageLoader.swift in Sources */,
+				BF2FED24268F1CFE00179065 /* PostList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
